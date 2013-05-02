@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>							<!-- jQuery lokalt -->
+
+</head>
+
+<body>
+
+
+<div id="myDiv"></div>
+
+<script>
+
+function loadXMLDoc()
+{
+var xmlhttp;
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {// code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xmlhttp.onreadystatechange=function()
+  {
+  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+    {
+		var jsonFraServer = xmlhttp.responseText;
+		var json = jsonFraServer.replace(/[/\\*]/g, "");
+		//var json = jsonFraServer.replace("\\", "");
+	    document.getElementById("myDiv").innerHTML=json;
+    }
+  }
+ xmlhttp.open("GET","array1.json",true);
+ xmlhttp.send();
+}
+	
+
+loadXMLDoc();	
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+	[
+		{
+			"overskrift" : "",
+			"tekst" : "Spise lunsj med pusen",
+			"farge" : "#D9FFB4"	
+		},
+		{
+			"overskrift" :"",
+			"tekst" : "Levere bøker på biblioteket",
+			"farge" : "#CBFF7C"	
+		},
+		{
+			"overskrift" : "Notat",
+			"tekst" : "Kjøpe roser til pusen",
+			"farge" : "#ACE8A4"	
+		},
+		{
+			"overskrift" :"",
+			"tekst" : "Gjøre ferdig obliger i Ajax-kurset",
+			"farge" : "#FFFA47"	
+		},
+		{
+			"overskrift" : "Notat",
+			"tekst" : "Gjøre rent i kjøleskapet.",
+			"farge" : "#B4E831"	
+		},
+		{
+			"overskrift" :"",
+			"tekst" : "Henge opp banner i svingen",
+			"farge" : "#FFFA47"	
+		},
+		{
+			"overskrift" : "Notat",
+			"tekst" : "Dra på fyllinga",
+			"farge" : "#D9FFB4"	
+		},
+		{
+			"overskrift" :"",
+			"tekst" : "Slappe av med en god film",
+			"farge" : "#FFFA47"	
+		}
+	
+	
+	]
